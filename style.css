@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-color: #111;
-    /* for contrast */
 }
 
 .header {
@@ -119,7 +118,7 @@ section h2 {
     border: 1px solid #C5A770;
     color: #C5A770;
     background-color: #000;
-    border-radius:5px;
+    border-radius: 5px;
     padding-left: 35px;
     padding-right: 35px;
     max-width: 146px;
