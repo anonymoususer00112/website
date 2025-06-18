@@ -4,7 +4,7 @@
 
 h2 {
     font-size: 2.25rem !important;
-    font-weight: lighter !important;
+    font-weight: 300 !important;
 }
 
 body {
@@ -36,6 +36,7 @@ body {
     background-color: #000;
     color: #C5A770;
 }
+
 .opt {
     color: #C5A770 !important;
 }
@@ -95,6 +96,9 @@ body {
     background-size: cover;
     background-position: 50%;
 }
+.shop-btn {
+    margin-top: 25px;
+}
 
 
 .heading {
@@ -139,6 +143,8 @@ section h2 {
 .description p {
     color: #C5A770;
     max-width: 1200px;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .footer {
@@ -146,6 +152,11 @@ section h2 {
     background-color: #000;
     padding: 60px 20px 30px;
     margin-top: 100px;
+}
+
+.footer-heading {
+    font-size: 2rem;
+    line-height: 140%;
 }
 
 .footer input[type="email"] {
@@ -157,6 +168,13 @@ section h2 {
 
 .footer input[type="email"]::placeholder {
     color: #C5A770;
+}
+
+.footer .col-md-3 a,
+.follow-text {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0 !important;
 }
 
 .footer button {
@@ -193,8 +211,18 @@ section h2 {
     padding-top: 20px;
 }
 
+.footer-bottom .text-center {
+    font-weight: 300;
+    line-height: 180%;
+    font-size: 0.875rem;
+}
+
 .social-icon {
     font-size: 24px;
     padding: 8px;
     display: inline-block;
+}
+
+.spec-icon {
+    font-size: 3rem;
 }
